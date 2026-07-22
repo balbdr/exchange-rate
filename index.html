@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <main>
+        <secion>
+            <div class="converter-container" >
+                
+               <!-- <p><marquee><h4 style="color:rgb(250, 248, 248);">मैले बनाएको यस एप(App) मा विश्वका सबै  देशहरुको    विदेशी विनिमय बजार ( foreign exchange market ) ले तोकेको बिनिमय दर ( Exchance Rate )अनुसार स्वचालितरुपमा(Automatically)  दैनिक नयाँ बिनिमय दर  परिबर्तन भईरहन्छ। </h4></marquee></p><br>-->
+                <p><marquee><h4 style="color:rgb(250, 248, 248);">In this app I made, the exchange rates for all countries around the world automatically update daily according to the rates set by the foreign exchange market. </h4></marquee></p><br>
+                <h2 style="color:rgb(255, 80, 11);">Currency Converter App</h2><br>
+                <!--<h3> विश्वका सबै   राष्ट्रका मुद्राहरुको आजको बिनिमय दर </h3>--->
+                <h3>Exchange rates of all countries' currencies</h3>
+                <!---<h5 >(एप बनाउने:-बल बहादुर भण्डारी)</h5>--->
+                <h5>(App Creator: Bal Bahadur Bhandari)</h5>
+               
+               <!---- <img src="ima/balbpng1.png" class="logo" ><br><hr><br>-->
+                <img src="ima/me2 png.png" class="logo" ><!---आजको विनिमय दर--> <br><hr><br>
+               <!--- <p></p><h4 style="color:rgb(48, 35, 224);">मुद्राहरुको सूची खोज्न तलका Option Boxes मा थिच्नुहोस् </h4> </p><br>-->
+                <p></p><h4 style="color:rgb(48, 35, 224);">Press the option boxes below to find the list of currencies</h4> </p><br>
+                <div class="input-container"  >
+                  
+                    <input type="number" value="1" min ="1" class="amount"   />
+                    <select class="fromCurrency"placeholder="Select Currency">
+                        
+                      <!--- <option value="USD(United-States-Dollar)">USD</option>
+                        <option value="NPR(Nepalese-Rupee)">NPR</option>--> 
+                    </select>
+                </div>
+                <div class="arrow">&#8645;</div>
+           
+                <div class="input-container">
+                    <input type="number" class="convertedAmount" />
+                    <select class="toCurrency" placeholder="Select Currency">
+                        
+                       <!--- <option value="USD(United-States-Dollar)">USD</option>
+                        <option value="NPR(Nepalese-Rupee)">NPR</option>--> 
+                        </select>
+            </div>
+            
+                <div class="result">1 USD = 138 NPR</div><br> 
+                <div  class="date">Exchange Rate Date: 2023-10-01 </div><br>
+                <div  class="clock" >01:09:45 AM </div> 
+                <br><hr><br>
+                
+              <!---- <p style="color:white;"  >नोट :-</p>
+               <p><h5 style="color:rgb(252, 248, 248);">-मैले बनाएको यस एप(App) मा विश्वका  १३० देशहरुको    विदेशी विनिमय बजार(foreign exchange market ) ले तोकेको बिनिमय दर(Exchance Rate )अनुसार स्वचालित (Automatic )रुपमा  दैनिक नयाँ बिनिमय दर स्वत​:आफै परिबर्तन भईरहन्छ। </h5></marquee></p><br>-->
+               
+               <p><marquee><h4 style="color:rgb(245, 193, 24);">- Nepal Rastra Bank has fixed a stable exchange rate between the Nepali currency and the Indian currency (100 INR = 160 NPR), and only a single value between the buying and selling rates set by Nepal Rastra Bank is taken, this exchange rate may slightly differ in amount from the rates set by Nepal Rastra Bank as well as other banks.</h4></marquee></p>
+            </div>
+            </div>
+           
+            
+            
+            </secion>
+            </main>
+
+           
+<Script src="script.js"></Script>
+</body>
+</html>
+
+<div> <!----<input type="reset" onclick = "clearText();changecolor();" class="reset"></div>--->
