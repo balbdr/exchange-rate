@@ -22,13 +22,19 @@ body{
     padding: 40px,6px;
     text-align: center;
     border: none;
-    width: 100%px;
+    width: 100%;
   /*  height: 750px;*/
-    min-height: 100vh;
+    height: 100vh;
 
 }
 .converter-container h1{
     margin-bottom: 40px ;
+
+}
+
+.converter-container h5{
+     text-align: left;
+    margin-left: -300px ;
 
 }
 .converter-container .logo{
