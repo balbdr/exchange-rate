@@ -122,6 +122,11 @@ body{
     }
     .converter-container .input-container{
         border: none;
+        border: 2px solid rgb(42, 74, 90);
+    border-radius: 5px;
+    margin-block: 10px;
+    border: transparent;
+    width:50px;
     }
     .converter-container .input-container input,.converter-container .input-container select{
         width: 100%;
